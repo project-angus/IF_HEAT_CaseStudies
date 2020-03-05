@@ -4,5 +4,6 @@
 	"simulation_files": "input/testCase",
 	"storage_type": "BTES",
 	"number_of_storages": 100,
-	"output_points": ["WARM", "COLD"]
+	"output_points": ["WARM", "COLD"],
+	"minimum_discharge_temperature": 25
 }
