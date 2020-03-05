@@ -1,0 +1,8 @@
+{
+	"simulator_name": "ogs_kb1",
+	"simulator_file": "input/ogs_OGS_FEM",
+	"simulation_files": "input/testCase",
+	"storage_type": "BTES",
+	"number_of_storages": 100,
+	"output_points": ["WARM", "COLD"]
+}

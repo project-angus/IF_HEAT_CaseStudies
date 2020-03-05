@@ -1,0 +1,2 @@
+label;cp;busses;bus_param;bus_P_ref;bus_char;design;offdesign;design_path;local_design;local_offdesign;P;P_set;P_var;eta_s;eta_s_set;eta_s_var;pr;pr_set;pr_var;eta_s_char;eta_s_char_set;eta_s_char_param;flow_char;flow_char_set;flow_char_param;Sirr;Sirr_set
+evaporator reciculation pump;pump;['power'];[None];[37.29903765484695];['0x7f1659fbd710'];['eta_s'];['eta_s_char'];nan;False;False;26.660688257646186;False;False;0.6257393262718705;False;False;1.0101010101010106;False;False;0x7f1659ff9358;True;nan;0x7f1659ff93c8;False;nan;0.03484069096705697;False
