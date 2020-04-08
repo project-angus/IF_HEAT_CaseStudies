@@ -1,0 +1,5 @@
+label;P;P_set
+heat system;2000000.0000000005;True
+heat storage;2000000.0000000005;False
+power;0.0;False
+ti;0.0;False
