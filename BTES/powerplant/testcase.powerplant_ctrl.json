@@ -8,15 +8,15 @@
 			"T_rf_sys_design": 60,
 			"T_ff_sto_design": 55,
 			"T_rf_sto_design": 40,
-			"Q_design": 1e6,
+			"Q_design": 2e6,
 			"Q_low": 0.25,
 			"Q_min": 0.01,
 			"m_max": 3,
 			"m_min": 0.05,
 			"limiting_mass_flow":
 			{
-				"heat exchanger:out2_TES in:in1": [0.05, 3],
-				"heat exchanger:out1_HS in:in1": [0.05, 3]
+				"heat exchanger:out2_TES in:in1": [0.05, 2.5],
+				"heat exchanger:out1_HS in:in1": [0.05, 2.5]
 			},
 			"ff_sys": "heat exchanger:out1_HS in:in1",
 			"rf_sys": "HS out:out1_heat exchanger:in1",
@@ -69,6 +69,7 @@
 		"restricted": true,
 		"name": "he_charge",
 		"ttd_min": 3,
-		"T_ff_sto_max": 75
+		"T_ff_sto_max": 75,
+		"dt_min": 8
 	}
 }
