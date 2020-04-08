@@ -1,0 +1,16 @@
+{
+	"working_dir": "/home/jens/git/IF_HeatSys_GeoStorage",
+	"input_timeseries_file": "input_timeseries.csv",
+	"output_timeseries_path": "output_timeseries.csv",
+	"geostorage_path": "geostorage/",
+	"powerplant_path": "powerplant/",
+	"t_start": "2030-01-01 00:00:00",
+	"t_steps_total": 8760,
+	"t_step_length": 3600,
+	"iter_min": 1,
+	"iter_max": 10,
+	"temperature_return_error": 0.01,
+	"mass_flow_error": 0.01,
+	"save_nth_t_step": 40,
+	"save_debug_nth_t_step": 500
+}
