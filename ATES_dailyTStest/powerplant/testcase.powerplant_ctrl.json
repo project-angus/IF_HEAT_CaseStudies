@@ -1,0 +1,75 @@
+{
+	"power_plant_models":
+	{
+		"he_charge":
+	 	{
+			"path": "he_charge",
+			"T_ff_sys_design": 50,
+			"T_rf_sys_design": 60,
+			"T_ff_sto_design": 55,
+			"T_rf_sto_design": 40,
+			"Q_design": 2e6,
+			"Q_low": 0.25,
+			"Q_min": 0.01,
+			"m_max": 3,
+			"m_min": 0.05,
+			"limiting_mass_flow":
+			{
+				"heat exchanger:out2_TES in:in1": [0.05, 2.5],
+				"heat exchanger:out1_HS in:in1": [0.05, 2.5]
+			},
+			"ff_sys": "heat exchanger:out1_HS in:in1",
+			"rf_sys": "HS out:out1_heat exchanger:in1",
+			"ff_sto": "heat exchanger:out2_TES in:in1",
+			"rf_sto": "TES out:out1_heat exchanger:in2",
+			"heat_bus_sys": "heat system",
+			"heat_bus_sto": "heat storage",
+			"heat_bus": "heat",
+			"power_bus": "power",
+			"ti_bus": "ti",
+			"m_range": [0.01, 150],
+			"debug": false
+		},
+		"hp_discharge":
+	 	{
+			"path": "hp_discharge",
+			"T_ff_sys_design": 80,
+			"T_rf_sys_design": 45,
+			"T_ff_sto_design": 15,
+			"T_rf_sto_design": 25,
+			"Q_design": 1e6,
+			"Q_low": 0.5,
+			"Q_min": 0.3,
+			"limiting_mass_flow":
+			{
+				"superheater:out2_compressor 1:in1": [0.3, 1.1]
+			},
+			"ff_sys": "condenser:out2_system feed:in1",
+			"rf_sys": "system return:out1_condenser:in2",
+			"ff_sto": "evaporator:out1_storage feed:in1",
+			"rf_sto": "storage return:out1_superheater:in1",
+			"heat_bus_sys": "heat system",
+			"heat_bus_sto": "heat storage",
+			"power_bus": "power",
+			"ti_bus": "ti",
+			"m_range": [0.01, 200],
+			"debug": false
+		}
+	},
+	"discharge":
+	{
+		"restricted": false,
+		"name": "hp_discharge",
+		"ttd_min": 3,
+		"T_rf_sto_min": 25,
+		"T_ff_sto_min": 10
+	},
+	"charge":
+	{
+		"restricted": true,
+		"name": "he_charge",
+		"ttd_min": 3,
+		"T_ff_sto_max": 75,
+		"dt_min": 8
+	}
+}
