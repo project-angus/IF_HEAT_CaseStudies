@@ -1,0 +1,15 @@
+GeoSys-PCS: Processes ------------------------------------------------
+#PROCESS
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $NUM_TYPE
+  NEW
+ $BOUNDARY_CONDITION_OUTPUT
+
+#STOP
+
+ $DEACTIVATED_SUBDOMAIN
+ 2
+  10
+  11
+#STOP

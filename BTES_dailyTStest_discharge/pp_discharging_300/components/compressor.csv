@@ -1,0 +1,2 @@
+label;cp;busses;bus_param;bus_P_ref;bus_char;bus_base;design;offdesign;design_path;local_design;local_offdesign;P;P_set;P_var;eta_s;eta_s_set;eta_s_var;pr;pr_set;pr_var;igva;igva_set;igva_var;char_map;char_map_set;char_map_param;eta_s_char;eta_s_char_set;eta_s_char_param;Sirr;Sirr_set
+compressor 1;compressor;['power'];[None];[278343.1756629336];['0x7f463fbe2b70'];['component'];['eta_s'];['eta_s_char'];nan;False;False;0.0;False;False;0.363032874835208;False;False;1.0;False;False;0;False;False;0x7f4641c8a048;False;nan;0x7f4641c8a128;True;m;0.0;False

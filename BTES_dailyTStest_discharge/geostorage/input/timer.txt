@@ -1,0 +1,2 @@
+Timer Coupling loop: :	117947	117947
+Timer Coupling loop: :	75848	75848

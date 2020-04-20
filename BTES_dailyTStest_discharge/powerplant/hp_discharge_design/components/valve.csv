@@ -1,0 +1,2 @@
+label;cp;busses;bus_param;bus_P_ref;bus_char;bus_base;design;offdesign;design_path;local_design;local_offdesign;pr;pr_set;pr_var;zeta;zeta_set;zeta_var;dp_char;dp_char_set;dp_char_param;Sirr;Sirr_set
+valve;valve;[];[];[];[];[];[];[];nan;False;False;0.14039583424282384;False;False;201370869.23795414;False;False;0x7fcddeb9b780;False;m;104.21560469795006;False
