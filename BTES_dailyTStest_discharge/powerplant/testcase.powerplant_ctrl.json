@@ -5,9 +5,9 @@
 	 	{
 			"path": "he_charge",
 			"T_ff_sys_design": 50,
-			"T_rf_sys_design": 60,
-			"T_ff_sto_design": 55,
-			"T_rf_sto_design": 40,
+			"T_rf_sys_design": 72,
+			"T_ff_sto_design": 65,
+			"T_rf_sto_design": 48,
 			"Q_design": 1e6,
 			"Q_min": 0.01,
 			"limiting_mass_flow":
