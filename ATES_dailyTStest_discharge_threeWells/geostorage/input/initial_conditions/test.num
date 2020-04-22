@@ -1,0 +1,55 @@
+$OVERALL_COUPLING
+ 2 100
+
+#NUMERICS
+ $PCS_TYPE
+  LIQUID_FLOW
+ $ELE_MASS_LUMPING
+  1
+ $ELE_GAUSS_POINTS
+  2
+ $LINEAR_SOLVER
+ ; method error_tolerance max_iterations theta precond storage
+  2      6      1.e-015       50000          1.0   1       2 
+ $COUPLING_CONTROL
+  LMAX 100
+#NUMERICS
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $ELE_GAUSS_POINTS
+  2
+ $LINEAR_SOLVER 
+  ; method error_tolerance max_iterations theta precond storage
+  2      6 1.e-015       50000           1.0   1       2 
+ $COUPLING_CONTROL
+  LMAX 1
+#STOP
+
+
+
+
+ $OVERALL_COUPLING
+ 2 100
+#NUMERICS
+ $PCS_TYPE
+  LIQUID_FLOW
+ $ELE_MASS_LUMPING
+  1
+ $LINEAR_SOLVER
+; method norm error_tolerance max_iterations theta precond storage
+  805 6 1.0e-12 50000 1 0 4
+ $ELE_GAUSS_POINTS
+  2
+ $COUPLING_CONTROL
+  LMAX 100
+
+#NUMERICS
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $LINEAR_SOLVER
+; method norm error_tolerance max_iterations theta precond storage
+  805 6 1.0e-12 50000 1.0 0 4
+ $ELE_GAUSS_POINTS
+  2
+ $COUPLING_CONTROL
+  LMAX 0.1
