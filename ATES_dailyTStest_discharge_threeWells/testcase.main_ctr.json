@@ -1,0 +1,15 @@
+{
+	"working_dir": "D:/JohannesNordbeck/ANGUS2_Modelle/Schnittstelle02-timestep-1d/IF_HeatSys_GeoStorage",
+	"input_timeseries_file": "input_timeseries.csv",
+	"output_timeseries_path": "output_timeseries.csv",
+	"geostorage_path": "geostorage/",
+	"powerplant_path": "powerplant/",
+	"t_start": "2030-05-01 00:00:00",
+	"t_steps_total": 60,
+	"t_step_length": 86400,
+	"iter_min": 1,
+	"iter_max": 10,
+	"temperature_return_error": 0.01,
+	"save_nth_t_step": 1,
+	"save_debug_nth_t_step": 10
+}

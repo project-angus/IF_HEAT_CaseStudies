@@ -1,0 +1,120 @@
+#OUTPUT
+ $NOD_VALUES
+  PRESSURE1
+  TEMPERATURE1
+  DENSITY1
+  VISCOSITY1
+  VELOCITY_X1
+  VELOCITY_Y1
+  VELOCITY_Z1
+ $GEO_TYPE
+  DOMAIN
+ $DAT_TYPE
+  VTK
+ $TIM_TYPE
+  STEPS 1
+
+;############################################################################
+;############################### POLYLINE Output ############################
+;############################################################################
+
+#OUTPUT
+ $NOD_VALUES
+  PRESSURE1
+  TEMPERATURE1
+  DENSITY1
+  VISCOSITY1
+  VELOCITY_X1
+  VELOCITY_Y1
+  VELOCITY_Z1
+ $GEO_TYPE
+  POLYLINE PLY_WW
+ $DAT_TYPE
+  TECPLOT
+ $TIM_TYPE
+  STEPS 1
+  
+#OUTPUT
+ $NOD_VALUES
+  PRESSURE1
+  TEMPERATURE1
+  DENSITY1
+  VELOCITY_X1
+  VELOCITY_Y1
+  VELOCITY_Z1
+ $GEO_TYPE
+  POLYLINE PLY_CW
+ $DAT_TYPE
+  TECPLOT
+ $TIM_TYPE
+  STEPS 1
+
+;############################################################################
+;############################### Temperature at warm well ###################
+;############################################################################
+
+#OUTPUT
+ $NOD_VALUES
+  TEMPERATURE1
+ $GEO_TYPE
+  POINT TWW
+ $DAT_TYPE
+  TECPLOT
+ $TIM_TYPE
+  STEPS 1
+  
+;############################################################################
+;############################### Temperature at cold well ###################
+;############################################################################
+
+#OUTPUT
+ $NOD_VALUES
+  TEMPERATURE1
+ $GEO_TYPE
+  POINT TCW
+ $DAT_TYPE
+  TECPLOT
+ $TIM_TYPE
+  STEPS 1
+  
+;############################################################################
+;############################### HEAT CONTENT ###############################
+;############################################################################
+
+#OUTPUT
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $DAT_TYPE
+  CONTENT 0
+ $TIM_TYPE
+  STEPS 1
+  
+#OUTPUT
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $DAT_TYPE
+  CONTENT 1
+ $TIM_TYPE
+  STEPS 1
+  
+#OUTPUT
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $DAT_TYPE
+  CONTENT 2
+ $TIM_TYPE
+  STEPS 1
+  
+#OUTPUT
+ $PCS_TYPE
+  HEAT_TRANSPORT
+ $DAT_TYPE
+  CONTENT -1
+ $TIM_TYPE
+  STEPS 1
+
+;############################################################################
+;############################### POINTs at wells Output #####################
+;############################################################################
+
+#STOP

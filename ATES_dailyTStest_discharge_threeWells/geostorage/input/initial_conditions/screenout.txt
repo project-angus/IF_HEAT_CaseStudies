@@ -1,0 +1,671 @@
+
+     ####################################################
+     #                                                  #
+     #    ###    ###    ###        #    #  ####     #   #
+     #   #   #  #   #  #   #       #   #   #   #   ##   #
+     #   #   #  #       #          #  #    #   #  # #   #
+     #   #   #  #        #    ###  ###     ####     #   #
+     #   #   #  #  ##     #        #  #    #   #    #   #
+     #   #   #  #   #  #   #       #   #   #   #    #   #
+     #    ###    ###    ###        #    #  ####     #   #
+     #                                                  #
+     ####################################################
+
+          File name (without extension): test
+            
+---------------------------------------------
+Data input:
+GEOLIB::readGLIFile open stream from file test.gli ... done
+read points from stream ...  ok, 172 points read
+read polylines from stream ...  ok, 16 polylines read
+read surfaces from stream ... triangulation of surface: ... done - 2 triangles 
+triangulation of surface: ... done - 2 triangles 
+triangulation of surface: ... done - 2 triangles 
+triangulation of surface: ... done - 2 triangles 
+triangulation of surface: ... done - 2 triangles 
+triangulation of surface: ... done - 2 triangles 
+ ok, 6 surfaces read
+PCSRead ... done, read 2 processes
+MFPRead
+BCRead ... PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+done, read 11 boundary conditions
+! Warning in STRead: No source terms !
+ICRead
+OUTRead
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+PLY_BOT 11
+PLY_CW 5
+PLY_CW_LO 9
+PLY_CW_UP 7
+PLY_DOMAIN_CW 3
+PLY_DOMAIN_WW 2
+PLY_DOMAIN_WWLO 1
+PLY_DOMAIN_WWUP 0
+PLY_SPEICHER_AB 14
+PLY_SPEICHER_AN 15
+PLY_TOP 10
+PLY_TW_AB 12
+PLY_TW_AN 13
+PLY_WW 4
+PLY_WW_LO 8
+PLY_WW_UP 6
+
+CW_C_1 8
+CW_C_10 17
+CW_C_11 18
+CW_C_12 19
+CW_C_13 20
+CW_C_14 21
+CW_C_15 22
+CW_C_16 23
+CW_C_17 24
+CW_C_18 25
+CW_C_19 26
+CW_C_2 9
+CW_C_20 27
+CW_C_21 28
+CW_C_3 10
+CW_C_4 11
+CW_C_5 12
+CW_C_6 13
+CW_C_7 14
+CW_C_8 15
+CW_C_9 16
+CW_L_1 114
+CW_L_10 123
+CW_L_11 124
+CW_L_12 125
+CW_L_13 126
+CW_L_14 127
+CW_L_15 128
+CW_L_16 129
+CW_L_17 130
+CW_L_18 131
+CW_L_19 132
+CW_L_2 115
+CW_L_20 133
+CW_L_21 134
+CW_L_3 116
+CW_L_4 117
+CW_L_5 118
+CW_L_6 119
+CW_L_7 120
+CW_L_8 121
+CW_L_9 122
+CW_U_1 72
+CW_U_10 81
+CW_U_11 82
+CW_U_12 83
+CW_U_13 84
+CW_U_14 85
+CW_U_15 86
+CW_U_16 87
+CW_U_17 88
+CW_U_18 89
+CW_U_19 90
+CW_U_2 73
+CW_U_20 91
+CW_U_21 92
+CW_U_3 74
+CW_U_4 75
+CW_U_5 76
+CW_U_6 77
+CW_U_7 78
+CW_U_8 79
+CW_U_9 80
+POINT0 0
+POINT1 1
+POINT156 156
+POINT157 157
+POINT158 158
+POINT159 159
+POINT160 160
+POINT161 161
+POINT162 162
+POINT163 163
+POINT164 164
+POINT165 165
+POINT166 166
+POINT167 167
+POINT168 168
+POINT169 169
+POINT170 170
+POINT171 171
+POINT2 2
+POINT3 3
+POINT4 4
+POINT5 5
+POINT52 52
+POINT53 53
+POINT54 54
+POINT55 55
+POINT56 56
+POINT57 57
+POINT58 58
+POINT59 59
+POINT6 6
+POINT60 60
+POINT61 61
+POINT62 62
+POINT63 63
+POINT64 64
+POINT65 65
+POINT66 66
+POINT67 67
+POINT68 68
+POINT69 69
+POINT7 7
+POINT70 70
+POINT71 71
+TCW 50
+TWW 51
+WW_C_1 29
+WW_C_10 38
+WW_C_11 39
+WW_C_12 40
+WW_C_13 41
+WW_C_14 42
+WW_C_15 43
+WW_C_16 44
+WW_C_17 45
+WW_C_18 46
+WW_C_19 47
+WW_C_2 30
+WW_C_20 48
+WW_C_21 49
+WW_C_3 31
+WW_C_4 32
+WW_C_5 33
+WW_C_6 34
+WW_C_7 35
+WW_C_8 36
+WW_C_9 37
+WW_L_1 135
+WW_L_10 144
+WW_L_11 145
+WW_L_12 146
+WW_L_13 147
+WW_L_14 148
+WW_L_15 149
+WW_L_16 150
+WW_L_17 151
+WW_L_18 152
+WW_L_19 153
+WW_L_2 136
+WW_L_20 154
+WW_L_21 155
+WW_L_3 137
+WW_L_4 138
+WW_L_5 139
+WW_L_6 140
+WW_L_7 141
+WW_L_8 142
+WW_L_9 143
+WW_U_1 93
+WW_U_10 102
+WW_U_11 103
+WW_U_12 104
+WW_U_13 105
+WW_U_14 106
+WW_U_15 107
+WW_U_16 108
+WW_U_17 109
+WW_U_18 110
+WW_U_19 111
+WW_U_2 94
+WW_U_20 112
+WW_U_21 113
+WW_U_3 95
+WW_U_4 96
+WW_U_5 97
+WW_U_6 98
+WW_U_7 99
+WW_U_8 100
+WW_U_9 101
+
+CW_C_1 8
+CW_C_10 17
+CW_C_11 18
+CW_C_12 19
+CW_C_13 20
+CW_C_14 21
+CW_C_15 22
+CW_C_16 23
+CW_C_17 24
+CW_C_18 25
+CW_C_19 26
+CW_C_2 9
+CW_C_20 27
+CW_C_21 28
+CW_C_3 10
+CW_C_4 11
+CW_C_5 12
+CW_C_6 13
+CW_C_7 14
+CW_C_8 15
+CW_C_9 16
+CW_L_1 114
+CW_L_10 123
+CW_L_11 124
+CW_L_12 125
+CW_L_13 126
+CW_L_14 127
+CW_L_15 128
+CW_L_16 129
+CW_L_17 130
+CW_L_18 131
+CW_L_19 132
+CW_L_2 115
+CW_L_20 133
+CW_L_21 134
+CW_L_3 116
+CW_L_4 117
+CW_L_5 118
+CW_L_6 119
+CW_L_7 120
+CW_L_8 121
+CW_L_9 122
+CW_U_1 72
+CW_U_10 81
+CW_U_11 82
+CW_U_12 83
+CW_U_13 84
+CW_U_14 85
+CW_U_15 86
+CW_U_16 87
+CW_U_17 88
+CW_U_18 89
+CW_U_19 90
+CW_U_2 73
+CW_U_20 91
+CW_U_21 92
+CW_U_3 74
+CW_U_4 75
+CW_U_5 76
+CW_U_6 77
+CW_U_7 78
+CW_U_8 79
+CW_U_9 80
+POINT0 0
+POINT1 1
+POINT156 156
+POINT157 157
+POINT158 158
+POINT159 159
+POINT160 160
+POINT161 161
+POINT162 162
+POINT163 163
+POINT164 164
+POINT165 165
+POINT166 166
+POINT167 167
+POINT168 168
+POINT169 169
+POINT170 170
+POINT171 171
+POINT2 2
+POINT3 3
+POINT4 4
+POINT5 5
+POINT52 52
+POINT53 53
+POINT54 54
+POINT55 55
+POINT56 56
+POINT57 57
+POINT58 58
+POINT59 59
+POINT6 6
+POINT60 60
+POINT61 61
+POINT62 62
+POINT63 63
+POINT64 64
+POINT65 65
+POINT66 66
+POINT67 67
+POINT68 68
+POINT69 69
+POINT7 7
+POINT70 70
+POINT71 71
+TCW 50
+TWW 51
+WW_C_1 29
+WW_C_10 38
+WW_C_11 39
+WW_C_12 40
+WW_C_13 41
+WW_C_14 42
+WW_C_15 43
+WW_C_16 44
+WW_C_17 45
+WW_C_18 46
+WW_C_19 47
+WW_C_2 30
+WW_C_20 48
+WW_C_21 49
+WW_C_3 31
+WW_C_4 32
+WW_C_5 33
+WW_C_6 34
+WW_C_7 35
+WW_C_8 36
+WW_C_9 37
+WW_L_1 135
+WW_L_10 144
+WW_L_11 145
+WW_L_12 146
+WW_L_13 147
+WW_L_14 148
+WW_L_15 149
+WW_L_16 150
+WW_L_17 151
+WW_L_18 152
+WW_L_19 153
+WW_L_2 136
+WW_L_20 154
+WW_L_21 155
+WW_L_3 137
+WW_L_4 138
+WW_L_5 139
+WW_L_6 140
+WW_L_7 141
+WW_L_8 142
+WW_L_9 143
+WW_U_1 93
+WW_U_10 102
+WW_U_11 103
+WW_U_12 104
+WW_U_13 105
+WW_U_14 106
+WW_U_15 107
+WW_U_16 108
+WW_U_17 109
+WW_U_18 110
+WW_U_19 111
+WW_U_2 94
+WW_U_20 112
+WW_U_21 113
+WW_U_3 95
+WW_U_4 96
+WW_U_5 97
+WW_U_6 98
+WW_U_7 99
+WW_U_8 100
+WW_U_9 101
+
+TIMRead
+MSPRead
+MMPRead ... done, read 3 medium properties
+PQCRead
+ChemApp_Read
+ChemApp_Read finished
+NUMRead
+-> Mass lumping for LIQUID_FLOW
+MSHRead:  ASCII file
+Executing ConstructGrid() ...  identify mesh orientation - x, y & z direction
+ done.
+Kleinste Zahl: 2.22045e-16
+PCTRead
+FCTRead
+CURRead
+DOMRead: no DDC file
+---------------------------------------------
+Create PCS processes
+CRFProcess::Config LIQUID_FLOW
+.............................................
+Create: LIQUID_FLOW
+
+->Create MMP
+->Create NUM
+->Create EQS
+->Create TIM
+->Create BC
+	[BC] set BC took 0
+	[BC] set transient BC took 0
+Warning: no boundary conditions specified for LIQUID_FLOW
+->Create ST
+->Config ELE values
+->Config NOD values
+->Assign IC
+->  Gass flow is formulated as mass balance.
+.............................................
+Create: HEAT_TRANSPORT
+
+->Create MMP
+->Create NUM
+->Create EQS
+->Create TIM
+->Create BC
+	[BC] set BC took 0.054
+	[BC] set transient BC took 0
+->Create ST
+->Config ELE values
+->Config NOD values
+->Assign IC
+RFR: no restart data
+Checking output data 
+
+
+***Start time steps
+ArrayName: VELOCITY_X1
+Data output: Polyline profile - PLY_WW
+Data output: Polyline profile - PLY_CW
+Data output: Breakthrough curves - TWW
+Data output: Breakthrough curves - TCW
+
+
+#############################################################
+Time step: 1|  Time: 604800|  Time step size: 604800
+
+      ================================================
+    ->Process 0: LIQUID_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+      ------------------------------------------------
+      Linear solver BiCGSTab with Jacobi:
+      Iterations | Max Iters | Norm of b | Error
+              933|      50000|  6.193e+00|  6.478e-16
+      ------------------------------------------------
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 6.110e+01
+->Calculate velocity
+
+      ================================================
+    ->Process 1: HEAT_TRANSPORT
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+      ------------------------------------------------
+      Linear solver BiCGSTab with Jacobi:
+      Iterations | Max Iters | Norm of b | Error
+                0|      50000|  1.063e+09|  1.885e-16
+      ------------------------------------------------
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.000e+00
+
+======================================================
+Outer coupling loop 1/100 complete.
+Max coupling error (relative to tolerance): 0.000e+00
+======================================================
+
+      ================================================
+    ->Process 0: LIQUID_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+      ------------------------------------------------
+      Linear solver BiCGSTab with Jacobi:
+      Iterations | Max Iters | Norm of b | Error
+                7|      50000|  6.193e+00|  9.132e-16
+      ------------------------------------------------
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 9.546e-09
+->Calculate velocity
+
+      ================================================
+    ->Process 1: HEAT_TRANSPORT
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+      ------------------------------------------------
+      Linear solver BiCGSTab with Jacobi:
+      Iterations | Max Iters | Norm of b | Error
+                0|      50000|  1.063e+09|  1.876e-16
+      ------------------------------------------------
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.000e+00
+
+======================================================
+Outer coupling loop 2/100 complete.
+Max coupling error (relative to tolerance): 0.000e+00
+======================================================
+This step is accepted.
+Write solutions for timestep 1 into file test_LIQUID_FLOW_PRESSURE1_primary_value.asc
+Write solutions for timestep 1 into file test_HEAT_TRANSPORT_TEMPERATURE1_primary_value.asc
+ArrayName: VELOCITY_X1
+Data output: Polyline profile - PLY_WW
+Data output: Polyline profile - PLY_CW
+Data output: Breakthrough curves - TWW
+Data output: Breakthrough curves - TCW
+Data output: HEAT_TRANSPORT TOTAL_CONTENT 0
+Data output: HEAT_TRANSPORT TOTAL_CONTENT 1
+Data output: HEAT_TRANSPORT TOTAL_CONTENT 2
+Data output: HEAT_TRANSPORT TOTAL_CONTENT -1
+
+#############################################################
+
+
+#############################################################
+Time step: 2|  Time: 1.210e+06|  Time step size: 6.048e+05
+
+      ================================================
+    ->Process 0: LIQUID_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...

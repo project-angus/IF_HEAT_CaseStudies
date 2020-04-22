@@ -1,0 +1,1 @@
+ogs_win_OGS_FEM_SP.exe test > screenout.txt
