@@ -1,0 +1,81 @@
+#SOLID_PROPERTIES			; MG 0 - Speicherformation
+ $DENSITY
+ 1 2517
+ $THERMAL
+  EXPANSION 
+   0
+  CAPACITY
+   1 739
+  CONDUCTIVITY 
+   1 3.087
+   
+#SOLID_PROPERTIES			; MG 1 - Geschiebe Top
+ $DENSITY
+ 1 2180 
+ $THERMAL
+  EXPANSION 
+   0
+  CAPACITY
+   1 969
+  CONDUCTIVITY 
+   1 2.4
+   
+#SOLID_PROPERTIES			; MG 2 - Geschiebe Bot
+ $DENSITY
+ 1 2180 
+ $THERMAL
+  EXPANSION 
+   0
+  CAPACITY
+   1 969
+  CONDUCTIVITY 
+   1 2.4
+#STOP
+
+
+
+
+
+#SOLID_PROPERTIES ; Materialgruppe 0 (Geschiebemergel)
+ $DENSITY
+  1 2180
+ $THERMAL
+  EXPANSION
+   1 0
+  CAPACITY
+   1 969
+  CONDUCTIVITY
+   1 2.354
+
+#SOLID_PROPERTIES ; Materialgruppe 1 (Schluff)
+ $DENSITY
+  1 2100
+ $THERMAL
+  EXPANSION
+   1 0
+  CAPACITY
+   1 1143
+  CONDUCTIVITY
+   1 1.8
+
+#SOLID_PROPERTIES ; Materialgruppe 2 (Aquifer 1[Speicherhorizont])
+ $DENSITY
+   1 2100
+ $THERMAL
+  EXPANSION
+   1 0
+  CAPACITY
+   1 1190
+  CONDUCTIVITY
+   1 2.4
+
+#SOLID_PROPERTIES ; Materialgruppe 3 (Aquifer 2)
+ $DENSITY
+  1 2100
+ $THERMAL
+  EXPANSION
+   1 0
+  CAPACITY
+   1 1190
+  CONDUCTIVITY
+   1 2.4

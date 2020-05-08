@@ -1,0 +1,9 @@
+{
+	"simulator_name": "ogs_kb1",
+	"simulator_file": "input/ogs_win_OGS_FEM.exe",
+	"simulation_files": "input/testCase",
+	"factor": ".05",
+	"distribution": ["1."],
+	"density": 1, 
+	"minimum_discharge_temperature": 10
+}
