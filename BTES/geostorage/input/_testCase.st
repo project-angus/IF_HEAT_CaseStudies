@@ -18,7 +18,7 @@
 5 10. 0.12 2.3  ; Boden
  $CONTRAFLOW_INPUT
   1  ; number of data sets (steps)
-3600  0      $FLOW_RATE_0       $INFLOW_TEMPERATURE
+1e20  0      !FLOW_RATE_0       !INFLOW_TEMPERATURE
  $DIS_TYPE
   CONSTANT_NEUMANN 1.
 
